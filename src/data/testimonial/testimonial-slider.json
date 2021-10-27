@@ -1,0 +1,23 @@
+{
+    "secTitle": "Lets See What Our Valuable Students Think About Us. Their Testimonials.",
+    "backgroundImage": "vd-bg.jpg",
+    "dataList": [
+        {
+            "id": "1",
+            "testimonialTitle": "It is great to be a part of this community.",
+            "testimonialDesc": "SkillAid’s Full Stack Internship course is simple yet effective. The trainer was helpful and gave examples which made the content easy to understand. I would highly recommend SkillAid.",
+            "authorImg": "pavan.jpg",
+            "authorName": "Pulla Pavan Kumar",
+            "authorTitle": "Full Stack Developer"
+        },
+        {
+            "id": "2",
+            "testimonialTitle": "It is great to be a part of this community.",
+            "testimonialDesc": "I have enrolled for SkillAid’s Full Stack Development Internship. The content is very informative. The trainer is knowledgeable and his skills of explaining the concepts are awesome.",
+            "authorImg": "srinivas.jpg",
+            "authorName": "Srinivas",
+            "authorTitle": "Digital Marketing& Growth Hacker"
+        }
+        
+    ]
+}

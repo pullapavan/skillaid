@@ -1,0 +1,89 @@
+{
+    "secTitle": "We Do What We Love To Do. Find the Best Internships/Workshops To Fit Your Needs.",
+    "dataList": [
+        {
+            "id": "1",
+            "imgUrl": "amss.jpg",
+            "count" : 1500,
+            "authorImg": "author.jpg",
+            "authorName": "John Doe",
+            "authorCourses": "13 Courses",
+            "price": "$20",
+            "courseTitle": "Automotive Styling and Sketching Internship.",
+            "courseDesc": "7 days 40Hrs which includes expert led live sessions, assignments, projects on Digital Rendering, Surface modeling....",
+            "courseLink": "/"
+        },
+        {
+            "id": "2",
+            "imgUrl": "fullstack.jpg",
+            "count" : 1652,
+            "authorImg": "author.jpg",
+            "authorName": "Jara Sen",
+            "authorCourses": "21 Courses",
+            "price": "$13",
+            "courseTitle": "Full Stack",
+            "courseDesc": "Intense Hands on Coding in various front-end and backend technologies.You will be able to complete a fully functional website with firebase deployments.",
+            "courseLink": "/fullstack"
+        },
+        {
+            "id": "3",
+            "imgUrl": "iot.jpg",
+            "authorImg": "author.jpg",
+            "count" : 1240,
+            "authorName": "Kim Chang",
+            "authorCourses": "26 Courses",
+            "price": "$19",
+            "courseTitle": "Internet of Things",
+            "courseDesc": "Hands on experience with various IOT applications, Micro controller programming, Real time DB, Rasberry pi and developing IOT apps by Industrial subject matter Experts.",
+            "courseLink": "/iot"
+        },
+        {
+            "id": "4",
+            "imgUrl": "securitycyber.jpg",
+            "count" : 1000,
+            "authorImg": "author.jpg",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Cyber Security",
+            "courseDesc": "Want to become Cyber saviour?\nLearn Ethical hacking, Vulnerability Analysis, IOT hacking, Cryptography, cyber forensics taught by renowed Cyber security specalists...",
+            "courseLink": "/"
+        },
+        {
+            "id": "4",
+            "imgUrl": "mlearning.jpg",
+            "count" : 1220,
+            "authorImg": "author.jpg",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Machine Learning",
+            "courseDesc": "World class exclusive internship on ML & AI. Learn Machine Learning , NLP, Chat bots, deep learning, Computer Vision, Image Processing tools...",
+            "courseLink": "/machinelearning"
+        },
+        {
+            "id": "4",
+            "imgUrl": "aees.jpg",
+            "count" : 1100,
+            "authorImg": "author.jpg",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Automotive Engines and Electronic System",
+            "courseDesc": "Get Hands on training on Disassembly and Assembling of two and Four wheeler Engines and Power trained Systems...",
+            "courseLink": "/"
+        },
+        {
+            "id": "4",
+            "imgUrl": "dmarketing.jpg",
+            "count" : 1100,
+            "authorImg": "author.jpg",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Digital Marketing",
+            "courseDesc": "Learn Website Marketing, SEO, SEM,Content Marketing, PPC Advertising, Social media marketing, Google Analytics, Adwords...",
+            "courseLink": "/"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "secTitle": "Our Recent Works.",
+    "dataList": [
+        {
+            "id": "1",
+            "personImage": "activity1.jpg",
+            "personName": "Emily Perrey",
+            "personTitle": "Teacher",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        },
+        {
+            "id": "2",
+            "personImage": "activity2.jpg",
+            "personName": "Justin Timbr",
+            "personTitle": "Teacher",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        },
+        {
+            "id": "3",
+            "personImage": "activity3.jpg",
+            "personName": "Medison White",
+            "personTitle": "Teacher",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        },
+        {
+            "id": "4",
+            "personImage": "activity4.jpg",
+            "personName": "Mark Shadow",
+            "personTitle": "Teacher",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        },
+        {
+            "id": "5",
+            "personImage": "activity5.jpg",
+            "personName": "Katy Perrey",
+            "personTitle": "Teacher",
+            "socialLinks": {
+                "facebook": "//www.facebook.com",
+                "twitter": "//www.twitter.com",
+                "linkedin": "//www.linkedin.com",
+                "youtube": "//www.youtube.com"
+            }
+        }
+    ]
+}

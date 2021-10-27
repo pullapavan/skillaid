@@ -1,0 +1,25 @@
+{
+    "secTitle": "Checkout Our Features To Know Why We Are Best In This Business",
+    "dataList": [
+        {
+            "id": "1",
+            "boxIcon": "flaticon-thumbs-like",
+            "title": "Up-to-date Courses",
+            "subTitle": "IOT, Machine Learning & AI, Android and Web Development, Automotive Styling and Sketching"
+        },
+       
+        {
+            "id": "3",
+            "boxIcon": "flaticon-teacher",
+            "title": "Qualified Teachers",
+            "subTitle": "Our Instructors are well Experienced and from reputed MNC's."
+        },
+        
+        {
+            "id": "6",
+            "boxIcon": "flaticon-support",
+            "title": "Online Support",
+            "subTitle": "We provide 24*7 online support for enrolled Students. So, where ever you are we've got you covered."
+        }
+    ]
+}

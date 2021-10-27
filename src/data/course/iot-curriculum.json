@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "mainTitle": "Introduction to IOT",
+            "subList": ["Understand what Internet of Things are?,", "getting started with IOT", "Overview of IoT components and IoT Communication Technologies"]
+        },
+        {
+            "mainTitle": "Arduino Simulation Environment",
+            "subList": ["Arduino Uno Architecture", "Setup the IDE, Writing Arduino Software", "Arduino Libraries","Interfacing LED, push button and buzzer with Arduino and much more"]
+        },
+        {
+            "mainTitle": "Sensor & Actuators with Arduino",
+            "subList": ["Overview of Sensors working", "Analog and Digital Sensors", " Interfacing of Temperature, Humidity, Motion, Light and Gas Sensor with Arduino", "Interfacing of Actuators with Arduino", "Interfacing of Relay Switch and Servo Motor with Arduino"]
+        },
+        {
+            "mainTitle": "Basic Networking with ESP8266 WiFi module",
+            "subList": [" Basics of Wireless Networking ", "Introduction to ESP8266 Wi-Fi Module and Various Wi-Fi library", "Web server- introduction, installation, configuration and Posting sensor(s) data to web server"]
+        },
+        {
+            "mainTitle": "Cloud Platforms for IOT",
+            "subList": ["Virtualization concepts and Cloud Architecture", "Cloud computing, benefits, Cloud services -- SaaS, PaaS, IaaS, Cloud providers & offerings,", "Study of IOT Cloud platforms, ThingSpeak API and MQTT", "Interfacing ESP8266 with Web services"]
+        },
+        {
+            "mainTitle": "IoT Protocols",
+            "subList": ["M2M vs IOT ", "Communication Protocols"]
+        }
+    ]
+}

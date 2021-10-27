@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "mainTitle": "introduction to ML&AI",
+            "subList": ["Supervised Machine Learning vs Unsupervised Machine Learning vs Reinforcement Learning"]
+        },
+        {
+            "mainTitle": "Supervised Machine Learning",
+            "subList": ["Linear regressions", "Support vector machines", "Naive Bayes","K-nearest neibhor Algorithm and much more"]
+        },
+        {
+            "mainTitle": "Unsupervised Machine Learning",
+            "subList": ["Hierarchical Clustering", "K-means clustering", "Mixture modules", "DBSCAN", "Neural Networks and much more"]
+        },
+        {
+            "mainTitle": "Problems best suited for AI to solve",
+            "subList": ["Repetitive Tasks ", "Data Intensive Tasks", "Super Human Tasks"]
+        },
+        {
+            "mainTitle": "Deep Learning",
+            "subList": ["Convolutional Neural Networks", "Artificial Neural Networks, Feedforward Neural Networks, Gradient Descent and much more"]
+        },
+        {
+            "mainTitle": "Role of Python In MLAI & Real Life Applications",
+            "subList": ["advanced python technologies", "Real life applications with industry level Project and Examples"]
+        }
+    ]
+}

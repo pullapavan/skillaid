@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "mainTitle": "Intoduction to HTML5",
+            "subList": ["HTML Tags", "Website Development"]
+        },
+        {
+            "mainTitle": "Intro to CSS3",
+            "subList": ["Learn about various styling techniques", "CSS design styles", "Inline, EXternal CSS","Box Model"]
+        },
+        {
+            "mainTitle": "Intoduction to JavaScript",
+            "subList": ["understand the concepts used to make website more interactive", "data types, Conditional using, DOM Structure", "ES6 Features", "Ajax calls, promises", "jquery Library"]
+        },
+        {
+            "mainTitle": "Front end web development Tools",
+            "subList": ["Bootstrap Grid System", "CSS preprocessors", "Build and deploy interactive webpages using Gulp and Grunt"]
+        },
+        {
+            "mainTitle": "Intoduction to Serveside development",
+            "subList": ["Learn about various technologies used to design server end", "High level web frameworks like REST, NODE, DJANGO and many more"]
+        },
+        {
+            "mainTitle": "Database Handling",
+            "subList": ["HTML Tags", "Front-end and back-end interactivity through the database"]
+        }
+    ]
+}
