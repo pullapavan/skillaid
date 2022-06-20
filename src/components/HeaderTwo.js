@@ -81,6 +81,14 @@ class HeaderTwo extends Component {
                                                 {/* <li className="nav-item"><Link className="nav-link" to={"" + "/course-details"}>Course Details</Link></li> */}
                                             {/* </ul> */}
                                         </li>
+                                        <li className="nav-item dropdown">
+                                            <Link className="nav-link dropdown-toggle" to={"" + "/gre"} data-toggle="dropdown">GRE & IELTS <i className="las la-angle-down"></i></Link>
+                                            {/* <ul className="dropdown list-unstyled"> */}
+                                                {/* <li className="nav-item"><Link className="nav-link" to={"" + "/course-grid"}>Course Grid</Link></li> */}
+                                                {/* <li className="nav-item"><Link className="nav-link" to={"" + "/course-list"}>Course List</Link></li> */}
+                                                {/* <li className="nav-item"><Link className="nav-link" to={"" + "/course-details"}>Course Details</Link></li> */}
+                                            {/* </ul> */}
+                                        </li>
                                         {/* <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" to={"" + "/"} data-toggle="dropdown">Instructor <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
@@ -117,6 +125,9 @@ class HeaderTwo extends Component {
                                     </div> */}
                                     <div className="apply-btn">
                                         <Link to={"" + "/registration"}><i className="las la-clipboard-list"></i>Apply Now</Link>
+                                    </div>
+                                    <div className="crm-btn">
+                                        <Link to={"" + "/crm"}><i className="las la-clipboard-list"></i>Represent Your College</Link>
                                     </div>
                                 </div>
                             </Col>

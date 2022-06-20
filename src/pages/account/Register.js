@@ -21,6 +21,7 @@ function Register() {
         let name = document.getElementById("registration_fname").value
         let email = document.getElementById("registration_email").value
         let mobile = document.getElementById("registration_mobile").value
+        let college = document.getElementById("college").value
 
 
 
@@ -30,7 +31,9 @@ function Register() {
                 const response = await db.collection("contactus").add({
                     name: name || "",
                     email: email || "",
-                    mobile: mobile || ""
+                    mobile: mobile || "",
+                    college: college || "",
+                    data: new Date().toString()
                 });
                 setSuccess(true)
                 setSubmitted(false)
@@ -85,6 +88,11 @@ function Register() {
                                         <p className="form-control">
                                             <label htmlFor="registration_email">Mobile</label>
                                             <input type="tel" placeholder="Mobile number" id="registration_mobile" />
+                                            <span className="registration_input-msg"></span>
+                                        </p>
+                                        <p className="form-control">
+                                            <label htmlFor="registration_email">College</label>
+                                            <input type="tel" placeholder="College/University Name" id="college" />
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         {/* <p className="form-control">

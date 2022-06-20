@@ -53,11 +53,11 @@ function FooterTwo() {
                         <Col md="3">
                             <div className="footer-logo-info">
                                 <img src={"" + "/assets/images/logo.png"} alt="" className="img-fluid" />
-                                <p>We're tech-ed company, constantly working on a mission to gear-up students with relevant skills and practical exposure through our internships, workshops, certification courses.</p>
+                                <p>We're Ed-Tech company, constantly working on a mission to gear-up students with relevant skills and practical exposure through our internships, workshops, certification courses.</p>
                                 <ul className="list-unstyled">
                                     <li><i className="las la-map-marker"></i>Hyderabad</li>
-                                    <li><i className="las la-envelope"></i>iskillaid@gmail.com</li>
-                                    <li><i className="las la-phone"></i>+91 9676831796</li>
+                                    <li><i className="las la-envelope"></i>Collaborations@SkillAid.Org</li>
+                                    <li><i className="las la-phone"></i>+91 7330697676</li>
                                 </ul>
                             </div>
                         </Col>
@@ -73,55 +73,48 @@ function FooterTwo() {
                                 </ul>
                             </div>
                         </Col>
+                        <Col md="3">
+                            <div className="f-post">
+                                <h5>Collaborations</h5>
+                                <div className="post-box d-flex">
+                                    {/* <div className="po-icon">
+                                        <i className="fab fa-twitter"></i>
+                                    </div> */}
+                                    <div className="po-content">
+                                        <img src='/assets/images/vnrlogo.png' width="50" />
+                                        <img src='/assets/images/vardhaman1.webp' width="80" height="44" style={{paddingLeft: '3px'}}/>
+                                        {/* <Link to={"" + "/blog-details"}>Lorem ipsum dolor sit ...</Link> */}
+                                        {/* <span>Mar 30, 2019</span> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md="3">
+                            <div className="f-post">
+                                <h5>Certification Bodies</h5>
+                                <div className="post-box d-flex">
+                                    <div className="po-content">
+                                        <img src='/assets/images/certificate-bodies.jpg' width="200" />
+                                    </div>
+                                    {/* <div className="po-content">
+                                        <img src='/assets/images/ICAB-Logo.webp' width="100"/>
+                                    </div> */}
+                                </div>
+                            </div>
+                        </Col>
                         {/* <Col md="3">
                             <div className="f-post">
-                                <h5>Twitter Post</h5>
                                 <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
                                     <div className="po-content">
-                                        <Link to={"" + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
-                                    </div>
-                                </div>
-                                <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
-                                    <div className="po-content">
-                                        <Link to={"" + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
-                                    </div>
-                                </div>
-                                <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
-                                    <div className="po-content">
-                                        <Link to={"" + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
+                                        <br></br>
+                                        <img src='/assets/images/autodesk.webp' width="100" />
                                     </div>
                                 </div>
                             </div>
                         </Col> */}
-                        <Col md="3">
-                            {/* <div className="f-newsletter">
-                                <h5>Newsletter</h5>
-                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit.</p>
-
-                                <form id="form4" className="form">
-                                    <p className="form-control">
-                                        <input type="email" placeholder="Enter email here" id="email4" />
-                                        <span className="input-msg4"></span>
-                                    </p>
-                                    <button>Submit</button>
-                                </form>
-                            </div> */}
-                        </Col>
                         <Col md="12">
                             <div className="copytext-area text-center">
-                                <p>Copyright &copy; 2018 | SkillAid</p>
+                                <p>Copyright &copy; {new Date().getFullYear()} | SkillAid</p>
                                 <ul className="social list-unstyled list-inline">
                                     <SocialLinks></SocialLinks>
                                 </ul>

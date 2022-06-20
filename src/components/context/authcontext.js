@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
-import { auth } from "../firebase/config";
+import { auth, storage } from "../firebase/config";
 import firebase from "firebase/app"
 import 'firebase/firestore';
 
@@ -61,7 +61,8 @@ export function AuthProvider({ children }) {
         resetPassword,
         googleSignup,
         facebookSignup,
-        db
+        db,
+        storage
     }
 
     return (

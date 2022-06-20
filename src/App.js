@@ -9,6 +9,7 @@ import CourseGrid from './pages/courses/CourseGrid';
 import CourseList from './pages/courses/CourseList';
 import CourseDetails from './pages/courses/CourseDetails';
 import FullStack from './pages/courses/FullStack';
+import Gre from './pages/courses/gre';
 import Instructor from './pages/instructor/Instructors';
 import InstructorDetails from './pages/instructor/InstructorDetails';
 import Gallery from './pages/gallery/Gallery';
@@ -29,6 +30,11 @@ import Cart from './pages/shop/Cart';
 import { AuthProvider } from './components/context/authcontext';
 import MachineLearning from './pages/courses/MachineLearning';
 import Iot from './pages/courses/Iot';
+import CRM from './pages/account/CRM';
+import RoboWar from './pages/account/RoboWar';
+import BlockChain from './pages/account/BlockChain';
+import AutoDesk from './pages/account/AUTODESK';
+import GreRegistration from './pages/account/gre_register';
 
 function App() {
     return (
@@ -44,6 +50,7 @@ function App() {
                     {/* <Route path={`${"" + "/course-list"}`} component={CourseList} /> */}
                     {/* <Route path={`${"" + "/course-details/:courseName"}`} component={CourseDetails} /> */}
                     <Route path={`${"" + "/fullstack"}`} component={FullStack} />
+                    <Route exact path={`${"" + "/gre"}`} component={Gre} />
                     <Route path={`${"" + "/machinelearning"}`} component={MachineLearning} />
                     <Route path={`${"" + "/iot"}`} component={Iot} />
                     <Route path={`${"" + "/instructor"}`} component={Instructor} />
@@ -63,6 +70,11 @@ function App() {
                     <Route path={`${"" + "/products"}`} component={Product} />
                     <Route path={`${"" + "/product-details"}`} component={ProductDetails} />
                     <Route path={`${"" + "/cart"}`} component={Cart} />
+                    <Route path={`${"" + "/crm"}`} component={CRM} />
+                    <Route path={`${"" + "/robowar/registration"}`} component={RoboWar} />
+                    <Route path={`${"" + "/blockchain/registration"}`} component={BlockChain} />
+                    <Route path={`${"" + "/certificate/registration"}`} component={AutoDesk} />
+                    <Route path={`${"" + "/gre/registration"}`} component={GreRegistration} />
                 </Switch>
             </Router>
         </AuthProvider>

@@ -85,7 +85,7 @@ function Sidebar() {
                     <img src={"" + "/assets/images/gallery-02.jpg"} alt="" />
                     <img src={"" + "/assets/images/gallery-03.jpg"} alt="" />
                     <img src={"" + "/assets/images/gallery-04.jpg"} alt="" />
-                    <img src={"" + "/assets/images/gallery-05.jpg"} alt="" />
+                    <img src={"" + "/assets/images/vardgal.jpg"} alt="" />
                     <img src={"" + "/assets/images/gallery-06.jpg"} alt="" />
                 </div>
                 <div className="side-contact">

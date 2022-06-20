@@ -197,7 +197,7 @@ export const Styles = styled.div`
                         }
                     }
 
-                    button {
+                    .register {
                         font-size  : 14px;
                         color      : #fff;
                         background : ${colors.black1};

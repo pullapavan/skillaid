@@ -59,7 +59,8 @@ function MobileMenu() {
                         <Col md="0" sm="12">
                             <div className="mb-topbar d-flex justify-content-between">
                                 <div className="topbar-item">
-                                    <p><i className="las la-phone"></i>+91 9542538384</p>
+                                    <p><i className="las la-phone"></i><a href='tel:7330697676'>+91 7330697676</a></p>
+                                    <p><i className="las la-email"></i><a href='mailto:techteam@skillaid.org'>techteam@skillaid.org</a></p>
                                 </div>
                                 <div className="topbar-item">
                                     <ul className="list-unstyled list-inline">
@@ -80,11 +81,8 @@ function MobileMenu() {
                                         <Link to={"" + "/"}><img src={"" + "/assets/images/logo.png"} alt="" /></Link>
                                     </div>
                                 </div>
-                                <div className="mb-search-box">
-                                    <form action="#">
-                                        <input type="text" name="search" placeholder="Search Here" />
-                                        <button type="submit"><i className="las la-search"></i></button>
-                                    </form>
+                                <div className="apply-btn">
+                                    <Link to={"" + "/registration"}><i className="las la-clipboard-list"></i>Apply Now</Link>
                                 </div>
                             </div>
                         </Col>
@@ -134,6 +132,18 @@ function MobileMenu() {
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
                                 <li><Link to={"" + "/internships"}>Available Internships</Link></li>
+                                {/* <li><Link to={"" + "/course-list"}>Course List</Link></li> */}
+                                {/* <li><Link to={"" + "/course-details"}>Course Details</Link></li> */}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="mb-menu-item">
+                        <button className="mb-menu-button active">
+                            <p>GRE & IELTS <i className="las la-plus"></i></p>
+                        </button>
+                        <div className="mb-menu-content show">
+                            <ul className="list-unstyled">
+                                <li><Link to={"" + "/gre"}>Register for GRE Training</Link></li>
                                 {/* <li><Link to={"" + "/course-list"}>Course List</Link></li> */}
                                 {/* <li><Link to={"" + "/course-details"}>Course Details</Link></li> */}
                             </ul>

@@ -22,6 +22,7 @@ export const Styles = styled.div`
                             margin-top: 0;
                             transition : all 6000ms linear;
                             transform: scale(1);
+                            width: 100%;
                         }
 
                         @media(max-width: 767px) {
@@ -29,7 +30,7 @@ export const Styles = styled.div`
                         }
 
                         @media(max-width: 575px) {
-                            height  : 360px;
+                            height  : 185px;
                         }
                     }
 
