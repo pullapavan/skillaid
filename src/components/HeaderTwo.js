@@ -54,7 +54,7 @@ class HeaderTwo extends Component {
                                 <div className="menu-box d-flex justify-content-end">
                                     <ul className="nav menu-nav">
                                         <li className="nav-item dropdown active">
-                                            <Link className="nav-link dropdown-toggle" to={"" + "/"} data-toggle="dropdown">Home <i className="las la-angle-down"></i></Link>
+                                            <Link className="nav-link dropdown-toggle" to={"" + "/materials"} data-toggle="dropdown">Materials <i className="las la-angle-down"></i></Link>
                                             {/* <ul className="dropdown list-unstyled"> */}
                                                 {/* <li className="nav-item"><Link className="nav-link" to={"" + "/"}>Home Style 1</Link></li> */}
                                                 {/* <li className="nav-item"><Link className="nav-link" to={"" + "/"}>Home</Link></li> */}
