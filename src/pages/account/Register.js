@@ -36,7 +36,8 @@ function Register(props) {
             setLoading(true);
             try {
                 setSubmitted(true)
-                const response = await db.collection("contactus").add({
+                const collectionName = fromMaterials ? "onlinematerial_regiatrations" : "contactus"
+                const response = await db.collection(collectionName).add({
                     name: name || "",
                     email: email || "",
                     mobile: mobile || "",
