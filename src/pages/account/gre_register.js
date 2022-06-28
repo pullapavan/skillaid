@@ -96,12 +96,12 @@ function GreRegistration() {
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_rollno">Roll no</label>
-                                            <input type="tel" placeholder="Roll no" id="registration_rollno" />
+                                            <input type="text" placeholder="Roll no" id="registration_rollno" />
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_branch">Branch</label>
-                                            <input type="tel" placeholder="Branch" id="registration_branch" />
+                                            <input type="text" placeholder="Branch" id="registration_branch" />
                                             <span className="registration_input-msg"></span>
                                         </p>
                                        

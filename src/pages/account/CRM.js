@@ -86,7 +86,7 @@ function CRM() {
                                         </p>
                                         <p className="form-control">
                                             <label htmlFor="registration_email">College</label>
-                                            <input type="tel" placeholder="College/University Name" id="college" />
+                                            <input type="text" placeholder="College/University Name" id="college" />
                                             <span className="registration_input-msg"></span>
                                         </p>
                                         <button disabled={submitted} onClick={submitDetails}>Earn While You Learn</button>
