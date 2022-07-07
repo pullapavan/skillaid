@@ -37,6 +37,8 @@ import AutoDesk from './pages/account/AUTODESK';
 import GreRegistration from './pages/account/gre_register';
 import Materials from './pages/courses/Materials';
 import OnlineMaterial from './components/private/OnlineMaterial';
+import PrivateRoute from './components/private/PrivateRoute';
+import SignUp from './pages/account/SignUp';
 
 function App() {
     return (
@@ -77,7 +79,9 @@ function App() {
                     <Route path={`${"" + "/blockchain/registration"}`} component={BlockChain} />
                     <Route path={`${"" + "/certificate/registration"}`} component={AutoDesk} />
                     <Route path={`${"" + "/gre/registration"}`} component={GreRegistration} />
-                    <Route path={`${"" + "/materials"}`} component={OnlineMaterial} />
+                    <PrivateRoute loginrequired={true} path={`${"" + "/materials"}`} component={OnlineMaterial} />
+                    <Route exact path={`${"/login"}`} component={Login} />
+                    <Route exact path={`${"/signup"}`} component={SignUp} />
                 </Switch>
             </Router>
         </AuthProvider>

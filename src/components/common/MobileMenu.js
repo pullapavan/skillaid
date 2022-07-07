@@ -1,9 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Spinner } from 'react-bootstrap';
 import { Styles } from "./styles/mobileMenu.js";
+import { useAuth } from '../context/authcontext.js';
+import { useHistory } from "react-router-dom";
 
-function MobileMenu() {
+
+function MobileMenu(props) {
+
+    const {currentUser, logout} = useAuth()
+    const [loading, setLoading] = useState()
+    const history = useHistory();
+
+    async function logoutUser() {
+        setLoading(true);
+        await new Promise(function (resolve) {
+            setTimeout(resolve, 1000)
+        });
+        await logout();
+        history.push("/login")
+    }
+
     useEffect(() => {
         // Mobile Menu
         const hmBtn = document.getElementById("mb-sidebar-btn");
@@ -81,9 +98,17 @@ function MobileMenu() {
                                         <Link to={"" + "/"}><img src={"" + "/assets/images/logo.png"} alt="" /></Link>
                                     </div>
                                 </div>
-                                <div className="apply-btn">
-                                    <Link to={"" + "/registration"}><i className="las la-clipboard-list"></i>Apply Now</Link>
-                                </div>
+                                {!props.hideLogin &&
+                                    (currentUser ? <div className="apply-btn" onClick={logoutUser}>
+                                        <span><i className="las la-clipboard-list"></i>
+                                           {
+                                               loading ? <Spinner animation="border" variant="dark" />: 'Logout'
+                                           } 
+                                        </span>
+                                    </div> : <div className="apply-btn">
+                                        <Link to={"" + "/login"}><i className="las la-clipboard-list"></i>Login</Link>
+                                    </div>)
+                                }
                             </div>
                         </Col>
                     </Row>

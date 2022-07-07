@@ -11,14 +11,14 @@ import BreadcrumbBox from '../../components/common/BreadcrumbBox';
 import { useHistory } from "react-router-dom";
 
 
-function Login() {
+function SignUp() {
 
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
     const [error, setError] = useState();
     const [loading, setLoading] = useState(false)
 
-    const { login, googleSignup, currentUser } = useAuth()
+    const { signup, googleSignup, currentUser } = useAuth()
     const  history  = useHistory();
 
     useEffect(() => {
@@ -50,7 +50,7 @@ function Login() {
         setError('');
         try {
             setLoading(true);
-            await login(email, password);
+            await signup(email, password);
             history.push("/materials");
         } catch (e) {
             setError(e.message);
@@ -68,7 +68,7 @@ function Login() {
                 <HeaderTwo hideLogin={true}/>
 
                 {/* Breadcroumb */}
-                <BreadcrumbBox title="Log In" />
+                <BreadcrumbBox title="Sign Up" />
 
                 {/* Login Area */}
                 <section className="login-area">
@@ -77,7 +77,7 @@ function Login() {
                             <Col md="12">
                                 <div className="login-box">
                                     <div className="text-center">
-                                        <h3>Log In</h3>
+                                        <h3>SignUp</h3>
                                     </div>
                                     {error &&
                                         <div>
@@ -97,7 +97,7 @@ function Login() {
                                             <span className="login_input-msg"></span>
                                         </p>
                                         <button disabled={!email || !password}>
-                                            {!loading ? 'Log In' : <Spinner animation="border" variant="dark" />}
+                                            {!loading ? 'Sign Up' : <Spinner animation="border" variant="dark" />}
                                         </button>
                                         {/* <div className="save-forget-password d-flex justify-content-between">
                                             <div className="save-passowrd">
@@ -108,10 +108,10 @@ function Login() {
                                             </div>
                                         </div> */}
                                         <div className="not_account-btn text-center">
-                                            <p>Dont have Any Account Yet? <Link to={"" + "/signup"}>Click Here</Link></p>
+                                            <p>Have An Account <Link to={"" + "/login"}>Click Here</Link></p>
                                         </div>
                                         <div className="social-login text-center">
-                                            <p>Login With Social</p>
+                                            <p>Signup With Social</p>
                                             <ul className="list-unstyled list-inline">
                                                 <li className="list-inline-item" onClick={googleSignup}><a href={"" + "#"}><i className="fab fa-google"></i> Google</a></li>
                                             </ul>
@@ -131,4 +131,4 @@ function Login() {
     )
 }
 
-export default Login
+export default SignUp

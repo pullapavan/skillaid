@@ -378,6 +378,37 @@ export const Styles = styled.div`
                     }
                 }
 
+                span {
+                    font-size     : 13px;
+                    color         : #ffffff;
+                    background    : ${colors.gr_bg};
+                    display       : inline-block;
+                    width         : 110px;
+                    height        : 40px;
+                    text-align    : center;
+                    text-transform: uppercase;
+                    font-weight   : 500;
+                    padding       : 11px;
+                    border-radius : 0 5px 5px 0;
+                    position: relative;
+
+                    i {
+                        position : absolute;
+                        font-size: 20px;
+                        left     : -40px;
+                        top      : 0;
+                        padding  : 10px;
+                        width    : 40px;
+                        height   : 100%;
+                        border-radius : 5px 0 0 5px;
+                        background-color: ${colors.green2};
+                    }
+
+                    &:hover {
+                        background: ${colors.gr_bg2};
+                    }
+                }
+
                 @media(max-width: 991px) {
                     display : none;
                 }
